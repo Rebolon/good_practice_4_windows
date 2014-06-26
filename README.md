@@ -17,23 +17,35 @@ Create a folder "dev" in your root : Z:\dev
 
 Then create the following folder tree under "dev".
 dev
-|---config      ensemble des configurations logiciels
+|---config      software configurations (_vimrc...)
+|---java
+    |---jdkXXX
+    |---jreXXX
+|---js          your javascript application (SPA or node app)
+|---nodejs      your node installation
 |---php
     |---extensions  extensions php autres que celles par défaut (xdebug...)
     |---libraries   librairies php (pear, composer...)
     |---projects    when using FastCGI ISAPI, it is where you store your config/log/resources per project
-    |---intranet
-        |---config  php.ini and every config required by your server
-        |---logs    log file for apache, php...
-        |---tmp 
-        |---src your project file
+        |---oneProject
+            |---config  php.ini and every config required by your server
+            |---logs    log file for apache, php...
+            |---tmp 
+            |---src     your project file
     |---versions
         |---5.3.28
         |---last    shorcut to the last version (here: 5.3.28)
+|---python
+    |---27
+    |---33
+|---ruby
+    |---200
 |---server
     |---FileZillaServer
     |---Zend        if you use ZendServer (but run only in FastCgi ISAPI)
     |---Mysql       if you run your own MySQL outside the LAMP stack from EasyPHP/Zend/...
+    |---MongoDb
+    |---OtherServer
 |---ssl         where you store your ssl keys
 |---tmp         because it is always usefull to get a tmp folder in dev
 |---tools       all softwares required for devlopment 
@@ -65,6 +77,7 @@ Under this dev/tools folder, you should also put some exe files :
  * kitty.exe: remote shell
  * puttygen.exe: ssl key management
  * wget.exe
+ * curl.exe
 
 Add dev/tools to your PATH to allow those exec to be called from everywhere
 
