@@ -54,6 +54,8 @@ dev
 Tools guide
 
 All that Tools must be installed under your dev/tools folder
+ * conemu: http://sourceforge.net/projects/conemu/
+ * ansicon: http://blog.mmediasys.com/2010/11/24/we-all-love-colors/
  * Console2: to replace the poor dos shell, follow this guide http://www.hanselman.com/blog/Console2ABetterWindowsCommandPrompt.aspx
  * an IDE like 
    * Netbeans
@@ -168,6 +170,9 @@ Now you have a set of php Tools like :
  * ...
 
 Configure your Console2 :
+ * have a great allaround look : http://www.kevwebdev.com/blog/in-search-of-a-better-windows-console-using-ansicon-console2-and-git-bash.html
+ * Console2: http://www.hanselman.com/blog/Console2ABetterWindowsCommandPrompt.aspx
+    * and use this console2 config: https://gist.github.com/kevinarcher/5602726
 
 Don't forget to use Docker, that's great, even under windows.
 
